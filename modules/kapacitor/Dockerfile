@@ -1,0 +1,3 @@
+ARG KAPACITOR_TAG
+FROM kapacitor:$KAPACITOR_TAG
+COPY ./config/* /etc/kapacitor/
