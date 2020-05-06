@@ -74,3 +74,5 @@ docker run -it -d --privileged -p 8888:8888 -e connectionString='YOUR DEVICE CON
 > This command will deploy and start the TICK stack inside a single container
 
 Launch Chronograf at: http://localhost:8888
+
+> To see real time docker diagnostics, navigate to the hosts list and open the *telegraf-getting-started*
